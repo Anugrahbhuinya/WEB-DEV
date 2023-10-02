@@ -3,34 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dance Website</title>
-    <link rel="stylesheet" href="../static/style.css">
-    <link rel="stylesheet" href="../static/index.js">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-  
+    <title>GYM WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav  id="navbar">
-        <ul id="navigation">
-            <li> <a href="/">Home</a></li>
-            <li><a href="/">About us</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Contact us</a></li>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
         </ul>
-
     </nav>
-    <section id="intro">this is section for intro
-        <form action="">
-            <input type="text" id="name" placeholder="enter your name">
-            <input type="text" id="sex" placeholder="enter your sex">
-            <input type="text" id="phone no." placeholder="enter your phone no.">
-            <textarea name="address" id="address" cols="30" rows="10" placeholder="enter your address"></textarea>
+<form action="/" method="post" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you.."></textarea>
+            <button class="btn">Submit</button>
         </form>
-    </section>
-    <section id="sponser">this is section for sponser
-
-    </section>
-    <footer id="footer">Our footer here</footer>
-    
 </body>
 </html>
